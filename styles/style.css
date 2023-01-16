@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400;1,500&family=Work+Sans:wght@400;700&display=swap');
+
+/* header: starts */
+
+header {
+    background-color:  #FF900E1A;
+    height: auto;
+   
+    
+}
+
+.logo-title {
+    font-size: 30px;
+    font-weight: 700;
+    width: 302px;
+    height: 53px;
+    margin-top: 41px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 8px;
+    color: #424242;
+    font-weight: 500;
+
+}
+
+
+.navbar {
+    width: 477px;
+    height: 26px;
+    margin-top: 41px;
+}
+
+
+.logo-navbar {
+display: flex;
+justify-content: space-between;
+}
+
+@media  screen and (max-width:576px){
+    .logo-navbar {
+        flex-direction: column;
+    }
+    
+}
+
+@media  screen and (min-width:577px){
+    .logo-title {
+        padding-left: 200px;
+    }
+    
+}
+
