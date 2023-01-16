@@ -2,18 +2,23 @@
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    background-color: white;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400;1,500&family=Work+Sans:wght@400;700&display=swap');
 
 /* header: starts */
 
+section {
+    margin-top: 150px;
+}
+
 header {
-    background-color:  #FF900E1A;
+    background-color: #FF900E1A;
+
     height: auto;
-   
-    
+
+
 }
 
 .logo-title {
@@ -22,7 +27,7 @@ header {
     width: 302px;
     height: 53px;
     margin-top: 41px;
-    
+
 }
 
 .navbar a {
@@ -42,21 +47,44 @@ header {
 
 
 .logo-navbar {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-@media  screen and (max-width:576px){
-    .logo-navbar {
-        flex-direction: column;
-    }
-    
+/* banner  */
+
+.banner-section {
+    text-align: center;
+    width: 862px;
+    height: 225px;
+    margin-top: 100px;
 }
 
-@media  screen and (min-width:577px){
-    .logo-title {
-        padding-left: 200px;
-    }
-    
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.explore-button {
+    margin-top: 30px;
+    text-align: right;
+    padding: 18px 36px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: #FF900E;
+    border: 0px;
+    ;
+
+}
+
+/* banner image */
+
+.banner-image{
+    margin-top: 100px;
 }
 
