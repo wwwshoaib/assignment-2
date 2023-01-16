@@ -98,5 +98,69 @@
 }
 
 
+@media screen and (min-width:577px) {
+    .team{
+        margin-left: 150px;
+        margin-right: 150px;
+        
+    }
+
+}
+
+
+/* media query for team section */
+@media screen and (max-width: 576px) {
+    .team {
+        flex-direction: column;
+    }
+
+    .team-member {
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+
+}
+
+
+@media screen and (max-width:576px) {
+    .team-member img{
+       width: 350px;
+       height: 220px;
+        
+    }
+
+}
+
+
+@media screen and (max-width:576px) {
+    .team-feature {
+       margin-top: -200px;
+        
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .experience-architect {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+    .architect img{
+       width: 350px;
+       height: 220px;
+        
+    }
+
+}
+
+
+
+
+
 
    

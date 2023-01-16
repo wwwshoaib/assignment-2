@@ -88,3 +88,32 @@ header {
     margin-top: 100px;
 }
 
+/* team features */
+
+.team {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+
+    
+}
+
+.team-member {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.team-feature {
+    padding-top: 200px;
+}
+
+
+.experience-architect {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
